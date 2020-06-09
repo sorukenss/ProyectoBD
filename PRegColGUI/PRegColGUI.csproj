@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7116F37-FF48-4E61-AB98-60549A740214}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PRegColGUI</RootNamespace>
+    <AssemblyName>PRegColGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministradorControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministradorControl.Designer.cs">
+      <DependentUpon>AdministradorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigConection.cs" />
+    <Compile Include="ConsultaBuscarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaBuscarEmpleado.Designer.cs">
+      <DependentUpon>ConsultaBuscarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaBuscarFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaBuscarFamilia.Designer.cs">
+      <DependentUpon>ConsultaBuscarFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaBuscarPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaBuscarPersona.Designer.cs">
+      <DependentUpon>ConsultaBuscarPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosAgregarFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosAgregarFamilia.Designer.cs">
+      <DependentUpon>DatosAgregarFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosAgregarPersonaFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosAgregarPersonaFamilia.Designer.cs">
+      <DependentUpon>DatosAgregarPersonaFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosEliminarFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosEliminarFamilia.Designer.cs">
+      <DependentUpon>DatosEliminarFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosEliminarPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosEliminarPersona.Designer.cs">
+      <DependentUpon>DatosEliminarPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosEmpleadoAgregarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosEmpleadoAgregarEmpleado.Designer.cs">
+      <DependentUpon>DatosEmpleadoAgregarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosEmpleadosEliminarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosEmpleadosEliminarEmpleado.Designer.cs">
+      <DependentUpon>DatosEmpleadosEliminarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosEmpleadosModificarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosEmpleadosModificarEmpleado.Designer.cs">
+      <DependentUpon>DatosEmpleadosModificarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosModificarPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosModificarPersona.Designer.cs">
+      <DependentUpon>DatosModificarPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmpleadoControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpleadoControl.Designer.cs">
+      <DependentUpon>EmpleadoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdministradorControl.resx">
+      <DependentUpon>AdministradorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaBuscarEmpleado.resx">
+      <DependentUpon>ConsultaBuscarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaBuscarFamilia.resx">
+      <DependentUpon>ConsultaBuscarFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaBuscarPersona.resx">
+      <DependentUpon>ConsultaBuscarPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosAgregarFamilia.resx">
+      <DependentUpon>DatosAgregarFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosAgregarPersonaFamilia.resx">
+      <DependentUpon>DatosAgregarPersonaFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosEliminarFamilia.resx">
+      <DependentUpon>DatosEliminarFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosEliminarPersona.resx">
+      <DependentUpon>DatosEliminarPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosEmpleadoAgregarEmpleado.resx">
+      <DependentUpon>DatosEmpleadoAgregarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosEmpleadosEliminarEmpleado.resx">
+      <DependentUpon>DatosEmpleadosEliminarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosEmpleadosModificarEmpleado.resx">
+      <DependentUpon>DatosEmpleadosModificarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosModificarPersona.resx">
+      <DependentUpon>DatosModificarPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpleadoControl.resx">
+      <DependentUpon>EmpleadoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{943bd5f8-40f0-4458-93ca-f6dfe04efd14}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{a68ab962-789a-4cdd-a444-0fe847426ff8}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura\Infraestructura.csproj">
+      <Project>{f8d20562-e975-44f5-a5f0-133af0bc0227}</Project>
+      <Name>Infraestructura</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
