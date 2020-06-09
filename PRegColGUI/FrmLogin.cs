@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace PRegColGUI
 {
-    public partial class Login : Form
+    public partial class FrmLogin : Form
     {
         AdministradorService administradorService;
-        public Login()
+        public FrmLogin()
         {
             administradorService = new AdministradorService(ConfigConection.connectionString);
             InitializeComponent();
@@ -92,7 +92,7 @@ namespace PRegColGUI
             }
             else if (administradorService.IniciarSesionEmpleado(TBUsuario.Text, TBPassword.Text) == true)
             {
-                AbrirFromHija(new EmpleadoControl());
+                AbrirFromHija(new FrmControl());
                 Limpiar();
             }
             else

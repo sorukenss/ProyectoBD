@@ -1,6 +1,6 @@
 ﻿namespace PRegColGUI
 {
-    partial class EmpleadoControl
+    partial class FrmControl
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmpleadoControl));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmControl));
             this.CPLateral = new System.Windows.Forms.Panel();
             this.BTCerrarSesion = new System.Windows.Forms.Button();
             this.CPDatos = new System.Windows.Forms.Panel();
@@ -85,11 +85,11 @@
             this.BTCerrarSesion.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(121)))));
             this.BTCerrarSesion.FlatAppearance.BorderSize = 0;
             this.BTCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BTCerrarSesion.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTCerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTCerrarSesion.ForeColor = System.Drawing.Color.White;
-            this.BTCerrarSesion.Location = new System.Drawing.Point(0, 597);
+            this.BTCerrarSesion.Location = new System.Drawing.Point(0, 591);
             this.BTCerrarSesion.Name = "BTCerrarSesion";
-            this.BTCerrarSesion.Size = new System.Drawing.Size(197, 44);
+            this.BTCerrarSesion.Size = new System.Drawing.Size(199, 44);
             this.BTCerrarSesion.TabIndex = 7;
             this.BTCerrarSesion.Text = "Cerrar Sesion";
             this.BTCerrarSesion.UseVisualStyleBackColor = true;
@@ -104,16 +104,16 @@
             this.CPDatos.Controls.Add(this.BTAgregarFamilia);
             this.CPDatos.Controls.Add(this.BTAgregarPersona);
             this.CPDatos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.CPDatos.Location = new System.Drawing.Point(0, 347);
+            this.CPDatos.Location = new System.Drawing.Point(0, 343);
             this.CPDatos.Name = "CPDatos";
-            this.CPDatos.Size = new System.Drawing.Size(197, 111);
+            this.CPDatos.Size = new System.Drawing.Size(199, 111);
             this.CPDatos.TabIndex = 5;
             // 
             // BTEliminarFamilia
             // 
             this.BTEliminarFamilia.FlatAppearance.BorderSize = 0;
             this.BTEliminarFamilia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTEliminarFamilia.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTEliminarFamilia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTEliminarFamilia.ForeColor = System.Drawing.Color.White;
             this.BTEliminarFamilia.Location = new System.Drawing.Point(1, 85);
             this.BTEliminarFamilia.Name = "BTEliminarFamilia";
@@ -128,7 +128,7 @@
             // 
             this.BTElminarPersona.FlatAppearance.BorderSize = 0;
             this.BTElminarPersona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTElminarPersona.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTElminarPersona.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTElminarPersona.ForeColor = System.Drawing.Color.White;
             this.BTElminarPersona.Location = new System.Drawing.Point(0, 64);
             this.BTElminarPersona.Name = "BTElminarPersona";
@@ -143,7 +143,7 @@
             // 
             this.BTModificarPersona.FlatAppearance.BorderSize = 0;
             this.BTModificarPersona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTModificarPersona.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTModificarPersona.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTModificarPersona.ForeColor = System.Drawing.Color.White;
             this.BTModificarPersona.Location = new System.Drawing.Point(0, 44);
             this.BTModificarPersona.Name = "BTModificarPersona";
@@ -158,7 +158,7 @@
             // 
             this.BTAgregarFamilia.FlatAppearance.BorderSize = 0;
             this.BTAgregarFamilia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTAgregarFamilia.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTAgregarFamilia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTAgregarFamilia.ForeColor = System.Drawing.Color.White;
             this.BTAgregarFamilia.Location = new System.Drawing.Point(0, 22);
             this.BTAgregarFamilia.Name = "BTAgregarFamilia";
@@ -173,7 +173,7 @@
             // 
             this.BTAgregarPersona.FlatAppearance.BorderSize = 0;
             this.BTAgregarPersona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTAgregarPersona.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTAgregarPersona.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTAgregarPersona.ForeColor = System.Drawing.Color.White;
             this.BTAgregarPersona.Location = new System.Drawing.Point(0, 0);
             this.BTAgregarPersona.Name = "BTAgregarPersona";
@@ -189,11 +189,11 @@
             this.BTDatos.Dock = System.Windows.Forms.DockStyle.Top;
             this.BTDatos.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(121)))));
             this.BTDatos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTDatos.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTDatos.ForeColor = System.Drawing.Color.White;
-            this.BTDatos.Location = new System.Drawing.Point(0, 303);
+            this.BTDatos.Location = new System.Drawing.Point(0, 299);
             this.BTDatos.Name = "BTDatos";
-            this.BTDatos.Size = new System.Drawing.Size(197, 44);
+            this.BTDatos.Size = new System.Drawing.Size(199, 44);
             this.BTDatos.TabIndex = 6;
             this.BTDatos.Text = "Datos";
             this.BTDatos.UseVisualStyleBackColor = true;
@@ -205,16 +205,16 @@
             this.CPConsulta.Controls.Add(this.BTConsulta2);
             this.CPConsulta.Controls.Add(this.BTConsulta1);
             this.CPConsulta.Dock = System.Windows.Forms.DockStyle.Top;
-            this.CPConsulta.Location = new System.Drawing.Point(0, 203);
+            this.CPConsulta.Location = new System.Drawing.Point(0, 199);
             this.CPConsulta.Name = "CPConsulta";
-            this.CPConsulta.Size = new System.Drawing.Size(197, 100);
+            this.CPConsulta.Size = new System.Drawing.Size(199, 100);
             this.CPConsulta.TabIndex = 3;
             // 
             // BTConsulta2
             // 
             this.BTConsulta2.FlatAppearance.BorderSize = 0;
             this.BTConsulta2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTConsulta2.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTConsulta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTConsulta2.ForeColor = System.Drawing.Color.White;
             this.BTConsulta2.Location = new System.Drawing.Point(0, 51);
             this.BTConsulta2.Name = "BTConsulta2";
@@ -229,7 +229,7 @@
             // 
             this.BTConsulta1.FlatAppearance.BorderSize = 0;
             this.BTConsulta1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTConsulta1.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTConsulta1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTConsulta1.ForeColor = System.Drawing.Color.White;
             this.BTConsulta1.Location = new System.Drawing.Point(0, 0);
             this.BTConsulta1.Name = "BTConsulta1";
@@ -245,11 +245,11 @@
             this.BTConsultas.Dock = System.Windows.Forms.DockStyle.Top;
             this.BTConsultas.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(121)))));
             this.BTConsultas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTConsultas.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTConsultas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTConsultas.ForeColor = System.Drawing.Color.White;
-            this.BTConsultas.Location = new System.Drawing.Point(0, 159);
+            this.BTConsultas.Location = new System.Drawing.Point(0, 155);
             this.BTConsultas.Name = "BTConsultas";
-            this.BTConsultas.Size = new System.Drawing.Size(197, 44);
+            this.BTConsultas.Size = new System.Drawing.Size(199, 44);
             this.BTConsultas.TabIndex = 4;
             this.BTConsultas.Text = "Consulta";
             this.BTConsultas.UseVisualStyleBackColor = true;
@@ -260,12 +260,12 @@
             this.LBNombreU.AutoSize = true;
             this.LBNombreU.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBNombreU.Dock = System.Windows.Forms.DockStyle.Top;
-            this.LBNombreU.Font = new System.Drawing.Font("SF Pro Display", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBNombreU.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBNombreU.ForeColor = System.Drawing.Color.White;
             this.LBNombreU.Location = new System.Drawing.Point(0, 130);
             this.LBNombreU.Name = "LBNombreU";
             this.LBNombreU.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LBNombreU.Size = new System.Drawing.Size(197, 29);
+            this.LBNombreU.Size = new System.Drawing.Size(193, 25);
             this.LBNombreU.TabIndex = 2;
             this.LBNombreU.Text = "Buen dia Usuario";
             this.LBNombreU.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -280,7 +280,7 @@
             this.CPLogo.Location = new System.Drawing.Point(0, 0);
             this.CPLogo.Name = "CPLogo";
             this.CPLogo.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-            this.CPLogo.Size = new System.Drawing.Size(197, 130);
+            this.CPLogo.Size = new System.Drawing.Size(199, 130);
             this.CPLogo.TabIndex = 1;
             // 
             // CPBG
@@ -293,11 +293,11 @@
             // LBRegcol
             // 
             this.LBRegcol.AutoSize = true;
-            this.LBRegcol.Font = new System.Drawing.Font("SF Pro Display", 24F, System.Drawing.FontStyle.Bold);
+            this.LBRegcol.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.LBRegcol.ForeColor = System.Drawing.Color.White;
             this.LBRegcol.Location = new System.Drawing.Point(34, 554);
             this.LBRegcol.Name = "LBRegcol";
-            this.LBRegcol.Size = new System.Drawing.Size(162, 43);
+            this.LBRegcol.Size = new System.Drawing.Size(157, 37);
             this.LBRegcol.TabIndex = 1;
             this.LBRegcol.Text = "REGCOL";
             // 
@@ -317,30 +317,30 @@
             // LBInformacion3
             // 
             this.LBInformacion3.AutoSize = true;
-            this.LBInformacion3.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBInformacion3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBInformacion3.Location = new System.Drawing.Point(247, 487);
             this.LBInformacion3.Name = "LBInformacion3";
-            this.LBInformacion3.Size = new System.Drawing.Size(449, 25);
+            this.LBInformacion3.Size = new System.Drawing.Size(449, 24);
             this.LBInformacion3.TabIndex = 3;
             this.LBInformacion3.Text = "Desarrollado por: Felix Ochoa e Isaac Pimienta";
             // 
             // LBInformacion2
             // 
             this.LBInformacion2.AutoSize = true;
-            this.LBInformacion2.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBInformacion2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBInformacion2.Location = new System.Drawing.Point(177, 455);
             this.LBInformacion2.Name = "LBInformacion2";
-            this.LBInformacion2.Size = new System.Drawing.Size(367, 25);
+            this.LBInformacion2.Size = new System.Drawing.Size(351, 24);
             this.LBInformacion2.TabIndex = 2;
             this.LBInformacion2.Text = "Un programa de caracterizacion familiar  ";
             // 
             // LBInformacion1
             // 
             this.LBInformacion1.AutoSize = true;
-            this.LBInformacion1.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBInformacion1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBInformacion1.Location = new System.Drawing.Point(177, 432);
             this.LBInformacion1.Name = "LBInformacion1";
-            this.LBInformacion1.Size = new System.Drawing.Size(617, 25);
+            this.LBInformacion1.Size = new System.Drawing.Size(588, 24);
             this.LBInformacion1.TabIndex = 1;
             this.LBInformacion1.Text = "Este programa ha sido desarrollado bajo C# gratuitamente para todos";
             // 
@@ -353,7 +353,7 @@
             this.PBInformacion.TabIndex = 0;
             this.PBInformacion.TabStop = false;
             // 
-            // EmpleadoControl
+            // FrmControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -362,7 +362,7 @@
             this.Controls.Add(this.CPCuadroBG);
             this.Controls.Add(this.CPLateral);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "EmpleadoControl";
+            this.Name = "FrmControl";
             this.Text = "EmpleadoControl";
             this.Load += new System.EventHandler(this.EmpleadoControl_Load);
             this.CPLateral.ResumeLayout(false);

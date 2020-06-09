@@ -1,6 +1,6 @@
 ﻿namespace PRegColGUI
 {
-    partial class Login
+    partial class FrmLogin
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.CPBackground = new System.Windows.Forms.Panel();
             this.CPCajaAzul = new System.Windows.Forms.Panel();
             this.BTEntrar = new System.Windows.Forms.Button();

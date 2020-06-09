@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PRegColGUI
 {
-    public partial class EmpleadoControl : Form
+    public partial class FrmControl : Form
     {
-        public EmpleadoControl()
+        public FrmControl()
         {
             InitializeComponent();
             customizeDesing();

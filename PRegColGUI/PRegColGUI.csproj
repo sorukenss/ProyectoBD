@@ -47,134 +47,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdministradorControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdministradorControl.Designer.cs">
-      <DependentUpon>AdministradorControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConfigConection.cs" />
-    <Compile Include="ConsultaBuscarEmpleado.cs">
+    <Compile Include="FrmControl.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConsultaBuscarEmpleado.Designer.cs">
-      <DependentUpon>ConsultaBuscarEmpleado.cs</DependentUpon>
+    <Compile Include="FrmControl.Designer.cs">
+      <DependentUpon>FrmControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultaBuscarFamilia.cs">
+    <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConsultaBuscarFamilia.Designer.cs">
-      <DependentUpon>ConsultaBuscarFamilia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultaBuscarPersona.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultaBuscarPersona.Designer.cs">
-      <DependentUpon>ConsultaBuscarPersona.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DatosAgregarFamilia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatosAgregarFamilia.Designer.cs">
-      <DependentUpon>DatosAgregarFamilia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DatosAgregarPersonaFamilia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatosAgregarPersonaFamilia.Designer.cs">
-      <DependentUpon>DatosAgregarPersonaFamilia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DatosEliminarFamilia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatosEliminarFamilia.Designer.cs">
-      <DependentUpon>DatosEliminarFamilia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DatosEliminarPersona.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatosEliminarPersona.Designer.cs">
-      <DependentUpon>DatosEliminarPersona.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DatosEmpleadoAgregarEmpleado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatosEmpleadoAgregarEmpleado.Designer.cs">
-      <DependentUpon>DatosEmpleadoAgregarEmpleado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DatosEmpleadosEliminarEmpleado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatosEmpleadosEliminarEmpleado.Designer.cs">
-      <DependentUpon>DatosEmpleadosEliminarEmpleado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DatosEmpleadosModificarEmpleado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatosEmpleadosModificarEmpleado.Designer.cs">
-      <DependentUpon>DatosEmpleadosModificarEmpleado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DatosModificarPersona.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatosModificarPersona.Designer.cs">
-      <DependentUpon>DatosModificarPersona.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EmpleadoControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EmpleadoControl.Designer.cs">
-      <DependentUpon>EmpleadoControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AdministradorControl.resx">
-      <DependentUpon>AdministradorControl.cs</DependentUpon>
+    <EmbeddedResource Include="FrmControl.resx">
+      <DependentUpon>FrmControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultaBuscarEmpleado.resx">
-      <DependentUpon>ConsultaBuscarEmpleado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultaBuscarFamilia.resx">
-      <DependentUpon>ConsultaBuscarFamilia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultaBuscarPersona.resx">
-      <DependentUpon>ConsultaBuscarPersona.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DatosAgregarFamilia.resx">
-      <DependentUpon>DatosAgregarFamilia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DatosAgregarPersonaFamilia.resx">
-      <DependentUpon>DatosAgregarPersonaFamilia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DatosEliminarFamilia.resx">
-      <DependentUpon>DatosEliminarFamilia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DatosEliminarPersona.resx">
-      <DependentUpon>DatosEliminarPersona.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DatosEmpleadoAgregarEmpleado.resx">
-      <DependentUpon>DatosEmpleadoAgregarEmpleado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DatosEmpleadosEliminarEmpleado.resx">
-      <DependentUpon>DatosEmpleadosEliminarEmpleado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DatosEmpleadosModificarEmpleado.resx">
-      <DependentUpon>DatosEmpleadosModificarEmpleado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DatosModificarPersona.resx">
-      <DependentUpon>DatosModificarPersona.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EmpleadoControl.resx">
-      <DependentUpon>EmpleadoControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
